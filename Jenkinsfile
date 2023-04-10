@@ -3,9 +3,11 @@ pipeline
     agent any
     stages
     {
-        stage ("Hola mundo"){
+         stage ("Ejecutar comandos de CMD"){
             steps {
-                echo "Hola Mundo2"
+                echo "Ejecutando comandos de versiones ...."                
+                bat 'java -version'
+                bat 'git --version'
             }
         }
     }

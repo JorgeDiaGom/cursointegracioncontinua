@@ -7,7 +7,7 @@ pipeline
             steps {
                 echo "Ejecutando comandos de versiones ...."                
                 bat 'java -version'
-                bat 'C:\Program Files\Git\bin\git.exe --version'
+                bat 'git.exe --version'
             }
         }
     }
